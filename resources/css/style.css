@@ -172,6 +172,7 @@ header a:hover {
   margin-right: 1.5rem;
   padding: 2rem 1.5rem;
   width: 60%;
+  border-right: 1px solid rgb(214,214,214);
 }
 
 .main-image {
@@ -181,7 +182,7 @@ header a:hover {
 }
 
 .main-image img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -192,8 +193,6 @@ header a:hover {
   margin: 1rem 0rem;
   width: 40%;
   height: auto;
-  border-right: 1px solid rgb(214,214,214);
-  border-left: 1px solid rgb(214,214,214);
 }
 
 .mainsmall-item {
@@ -217,13 +216,13 @@ header a:hover {
 /* ##### Courses Section ##### */
 
 .courses {
-  background-color: rgb(245,245,245);
+  background-color: rgb(235,235,235);
   width: 100%;
 }
 
 .courses .container {
+  display: flex;
   justify-content: center;
-  max-width: 100%;
 }
 
 .courses h1 {
@@ -236,10 +235,32 @@ header a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
+  margin: 0 4.5rem 2rem 4.5rem;
 }
 
 .course {
   background-color: rgb(255, 255, 255);
-  width: 33%;
-  height: auto
+  height: auto;
+  width: 31%;
+  margin-bottom: 2rem;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.course-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.course-content {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-content p{
+  padding-top: .5rem
 }
