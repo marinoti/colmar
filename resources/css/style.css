@@ -127,7 +127,7 @@ header a:hover {
 .small {
   display: flex;
   align-items: center;
-  padding: 2rem 2.5rem;
+  padding: 2rem 0rem;
   width: 40%;
 }
 
@@ -169,7 +169,6 @@ header a:hover {
 .mainlarge {
   display: flex;
   flex-direction: column;
-  margin-right: 1.5rem;
   padding: 2rem 1.5rem;
   width: 60%;
   border-right: 1px solid rgb(214,214,214);
